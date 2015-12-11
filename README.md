@@ -7,7 +7,10 @@
 2. Endereço do cliente: CEP, Logradouro, Número, Complemento, Bairro, Cidade, Estado
 3. Dados pessoais e profissionais do cliente: RG, Número, Data Expedição, Órgão Expedidor, Estado Civil, Categoria (Empregado, Empregador, Autônomo, Outros), Empresa em que trabalha (opcional), Profissão, Renda Bruta
 
-Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preencha os campos do formulário utilizando a seguinte API: http://www.buscacep.correios.com.br/servicos/dnec/consultaLogradouroAction.do
+Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preencha os campos do formulário utilizando uma API. Aqui vai algumas sugestões de API's disponíveis para serem usadas:
+* http://postmon.com.br/
+* http://cep.correiocontrol.com.br/XXXXXXXX.json
+* http://www.buscacep.correios.com.br/servicos/dnec/consultaLogradouroAction.do (http://www.buscacep.correios.com.br/sistemas/buscacep/)
 
 ---
 
@@ -21,7 +24,7 @@ Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preench
 
 ***Plus***
 * Teste unitário (ex. TDD)
-* Documentação em UML (Diagrama de classe, Diagrama de casos de uso, Diagrama de sequência, etc.)
+* Documentação em UML (Diagrama de classe, Diagrama de casos de uso, Diagrama de sequência, etc.). Obs: Versionar na raiz do projeto versão de apresentação em PDF.
 
 ### Como vou rodar o projeto
 >1. *git clone seu-fork*
@@ -29,7 +32,7 @@ Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preench
 
 ### O que será avaliado
 >1. *Domínio da linguagem PHP*
-2. *Domínio do uso de Web Services*
+2. *Domínio do uso de Webservices*
 3. *Organização do código*
 4. *Raciocínio para construir a solução solicitada*
 
