@@ -1,6 +1,8 @@
-# Desenvolva uma solução para o problema abaixo:
+# Challenge for PHP Developer
 
-## Baseado no conceito S.P.A. (Single Page Application), construa uma página para cadastro das seguintes informações:
+## Desenvolva uma solução para o problema abaixo:
+
+### Baseado no conceito S.P.A. (Single Page Application), construa uma página para cadastro das seguintes informações:
 1. Dados do cliente: CPF (identificador do cliente no sistema), Senha, Nome, Telefone, E-mail, Data de Nascimento
 2. Endereço do cliente: CEP, Logradouro, Número, Complemento, Bairro, Cidade, Estado
 3. Dados pessoais e profissionais do cliente: RG, Número, Data Expedição, Órgão Expedidor, Estado Civil, Categoria (Empregado, Empregador, Autônomo, Outros), Empresa em que trabalha (opcional), Profissão, Renda Bruta
@@ -26,10 +28,10 @@ Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preench
 2. *rodar o script para banco na raiz do projeto*
 
 ### O que será avaliado
-1. Domínio da linguagem PHP
-2. Domínio do uso de Web Services
-3. Organização do código
-4. Raciocínio para construir a solução solicitada
+>1. *Domínio da linguagem PHP*
+2. *Domínio do uso de Web Services*
+3. *Organização do código*
+4. *Raciocínio para construir a solução solicitada*
 
 
 
