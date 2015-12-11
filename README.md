@@ -1,14 +1,13 @@
-# challenge-01
-Challenge for PHP Developer.
+# Desenvolva uma solução para o problema abaixo:
 
-## Desenvolva uma solução para o problema abaixo:
-
-Baseado no conceito S.P.A. (Single Page Application), construa uma página para cadastro das seguintes informações:
+## Baseado no conceito S.P.A. (Single Page Application), construa uma página para cadastro das seguintes informações:
 1. Dados do cliente: CPF (identificador do cliente no sistema), Senha, Nome, Telefone, E-mail, Data de Nascimento
 2. Endereço do cliente: CEP, Logradouro, Número, Complemento, Bairro, Cidade, Estado
 3. Dados pessoais e profissionais do cliente: RG, Número, Data Expedição, Órgão Expedidor, Estado Civil, Categoria (Empregado, Empregador, Autônomo, Outros), Empresa em que trabalha (opcional), Profissão, Renda Bruta
 
-Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preencha os campos do formulário utilizando a seguinte API: http://www.buscacep.correios.com.br/servicos/dnec/consultaLogradouroAction.do 
+Para ajudar nosso usuário, no momento que ele terminar o digitar o CEP, preencha os campos do formulário utilizando a seguinte API: http://www.buscacep.correios.com.br/servicos/dnec/consultaLogradouroAction.do
+
+---
 
 ***Requisitos***
 * Utilize PHP (> 5.3) e MySQL como tecnologias
