@@ -1,0 +1,19 @@
+<html ng-app="challengeApp">
+    <head>
+        <title>Challenge for PHP Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{{ asset('frontend/node_modules/bootstrap/dist/css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ asset('frontend/css/app.css') }}">
+
+        <script src="{{ asset('frontend/node_modules/angular/angular.js') }}"></script>
+        <script src="{{ asset('frontend/node_modules/angular-resource/angular-resource.js') }}"></script>
+        <script src="{{ asset('frontend/node_modules/angular-route/angular-route.js') }}"></script>
+        
+        <script src="{{ asset('frontend/app/app.js')}}"></script>
+        <script src="{{ asset('frontend/app/controllers.js')}}"></script>
+        <script src="{{ asset('frontend/app/services.js')}}"></script>
+    </head>
+
+    <div ng-view></div>
+</html>

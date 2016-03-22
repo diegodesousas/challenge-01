@@ -1,0 +1,113 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Cliente {{ person.cpf }} <small>Challenge for PHP Developer</small></h1>
+            <a href="#/persons" class="btn btn-default">Lista</a>
+            <a href="#/new/person/" class="btn btn-default">Novo</a>
+            <a href="#/edit/person/{{ person.cpf }}" class="btn btn-default">Editar</a>
+            <button class="btn btn-danger" ng-click="delete(person.cpf)">Excluir</button>
+            <br>
+            <br>
+            <h3>Dados Pessoais</h3>
+            <table class="table table-bordered table-condensed table-striped">
+                <tbody>
+                    <tr>    
+                        <td width="20%">CPF</td>
+                        <td width="80%">{{ person.cpf }}</td>
+                    </tr>
+                    <tr>
+                        <td>Nome</td>
+                        <td>{{ person.name }}</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>{{ person.email }}</td>
+                    </tr>
+                    <tr>
+                        <td>Telefone</td>
+                        <td>{{ person.telephone }}</td>
+                    </tr>
+                    <tr>
+                        <td>Data de Nascimento</td>
+                        <td>{{ person.birthday }}</td>
+                    </tr>
+                    <tr>
+                        <td>Senha</td>
+                        <td>{{ person.password }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Endereço</h3>
+            <table class="table table-bordered table-condensed table-striped" ng-repeat="address in person.address">
+                <tbody>
+                    <tr>    
+                        <td width="20%">Cep</td>
+                        <td width="80%">{{ address.cep }}</td>
+                    </tr>
+                    <tr>
+                        <td>Logradouro</td>
+                        <td>{{ address.street }}</td>
+                    </tr>
+                    <tr>
+                        <td>Numero</td>
+                        <td>{{ address.number }}</td>
+                    </tr>
+                    <tr>
+                        <td>Complemento</td>
+                        <td>{{ address.additional }}</td>
+                    </tr>
+                    <tr>
+                        <td>Bairro</td>
+                        <td>{{ address.district }}</td>
+                    </tr>
+                    <tr>
+                        <td>Cidade</td>
+                        <td>{{ address.city }}</td>
+                    </tr>
+                    <tr>
+                        <td>Estado</td>
+                        <td>{{ address.state }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Dados Pessoais</h3>
+            <table class="table table-bordered table-condensed table-striped">
+                <tbody>
+                    <tr>    
+                        <td width="20%">RG</td>
+                        <td width="80%">{{ person.details.rg }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Data de Expedição</td>
+                        <td>{{ person.details.expeditionDate }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Orgão Expedidor</td>
+                        <td>{{ person.details.shiiper }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Estado Civíl</td>
+                        <td>{{ person.details.maritalStatusEntity.description }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Profissão</td>
+                        <td>{{ person.details.profession }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Categoria</td>
+                        <td>{{ person.details.categoryEntity.description }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Empresa em que trabalha</td>
+                        <td>{{ person.details.company }}</td>
+                    </tr>
+                    <tr>    
+                        <td>Renda Bruta</td>
+                        <td>{{ person.details.income }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

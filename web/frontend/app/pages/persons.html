@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Clientes <small>Challenge for PHP Developer</small></h1>
+            <a href="#/new/person/" class="btn btn-default">Novo Cliente</a>
+            <br>
+            <br>
+            <table class="table table-bordered table-striped" ng-if="persons.length > 0">
+                <thead>
+                    <th>CPF</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="person in persons">
+                        <td><a href="/#/persons/{{ person.cpf }}">{{ person.cpf }}</a></td>
+                        <td>{{ person.name }}</td>
+                        <td>{{ person.email }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
